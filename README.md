@@ -1,4 +1,4 @@
-# Norris
+# Medical trials
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
@@ -22,6 +22,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Notes from Vitaliy
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project doesn't use any external dependencies besides tailwind.css, which I used to make prototyping easier. It has some unit tests, linting and prettier for code formatting. I simplified the interface for DTO we are getting to show only several fields, I believe that should do for the assignment sake. As per requirements, the only thing that is a bit off here is commit history. I happened to have a small Angular project with quite similar structure already, so I recycled some parts of it to save time. So, it was not exactly a clean slate. Nonetheless, I appreciate any feedback.
